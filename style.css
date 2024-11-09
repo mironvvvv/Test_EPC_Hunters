@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Actay';
+  src: url('assets/fonts/Actay-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Actay Wide';
+    src: url(assets/fonts/ActayWide-Bold.otf);
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    
+}
+    
+
+.background {
+    position: fixed; 
+   bottom:0;
+   top:0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 19.82%, rgba(70, 70, 70, 0.22) 38.45%, rgba(255, 255, 255, 0.00) 87.39%),
+        url('assets/img/background.png') center/cover no-repeat;
+    z-index: -1; 
+} 
+.overlay {
+    display:none;
+}
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    margin-right: -9px;
+    padding: 40px 70px 0;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.main {
+    padding: 0 70px;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.burger-menu {
+    display:none;
+
+}
+
+.logo {
+    padding-right: 19px;
+    line-height: 29px;
+    
+}
+a {
+    text-decoration: none;
+}
+.text-logo {
+    font-family: 'Actay Wide', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:#ffff;
+    
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+.nav-link {
+    font-family: 'Actay', sans-serif;
+    color:#ffff;
+    font-size: 20px;
+}
+
+input[type="text"], 
+input[type="search"] {
+    all: unset;
+    width: 136px;
+    height: 23px 
+    
+}
+
+.search-container {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-left: 300px;
+    border-bottom:1px solid #ffff;
+    
+}
+
+input[type="text"]::placeholder {
+    color: #ffff; 
+    font-family: 'Actay', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.button-search {
+    all: unset;
+    background-image: url(assets/svg/strelka.svg) ; 
+    width: 16px;
+    height:16px;
+    border: none;
+    cursor: pointer;
+    margin-right:3px; 
+}
+.title {
+    padding-top:40px;
+    text-align: center;
+    color: #FFF;
+font-family: "Actay Wide";
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+.one {
+order:2;
+position: relative;
+    top: 60px;
+}
+.five {
+    order:3;
+position: relative;
+left: 839px;
+    bottom: 112px;
+}
+.four {
+    order:4;
+    position: relative;
+    left: 357px;
+    bottom: 338px;
+}
+.six {
+    order:5;
+    position: relative;
+    left: 699px;
+    bottom: 522px;
+ 
+}
+.two {
+    order:6;
+    position:relative;
+    left: 77px;
+    bottom: 552px;
+}
+.three {
+    order:7;
+    position:relative;
+    left: 429px;
+    bottom: 947px;
+
+}
+.section {
+    width: 286px;
+height: 79px;
+filter: drop-shadow(0px 4px 15px rgba(255, 255, 255, 0.35));
+border-radius: 35px 0px;
+border: 3px solid #FFF;
+background: rgba(255, 255, 255, 0.30);
+backdrop-filter: blur(7.5px);
+}
+
+.vector-section {
+position: relative;
+    left: 267px;
+    top: -25px;
+     
+}
+
+.number {
+    width: 90px;              
+    height: 51px;
+    background-color: #5E7600;
+    border-radius: 50%;
+border: 1px solid #fff;
+    padding-top: 10px;
+}
+.fiive {
+    padding-top: 15px;
+    padding-bottom: 12px
+}
+.siix {
+    padding-top: 15px;
+    padding-bottom: 12px
+}
+.text-section {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: -68px;
+}
+
+.text-loren-ipsum {
+color: #F6FFD2;
+font-family: Actay;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+
+.vector-one {
+    position:relative;
+    top: -148px;
+    left: -450px;
+height: 219px;
+order:4;
+
+}
+.vector-four {
+    position:relative;
+    order:3;
+    left: 155px;
+    height: 134px;
+    bottom: -26px;
+}
+
+.vector-five {
+    position:relative;
+    order:5;
+    bottom: 429px;
+    left: 887px; 
+}
+
+.vector-three {
+    position:relative;
+    order:6;
+    bottom: 695px;
+    left: 458px;
+}
+
+.vector-two {
+    position:relative;
+    order:7;
+    bottom: 806px;
+    left: 254px; 
+}
